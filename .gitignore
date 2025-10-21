@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environment ---
+myenv/
+.env/
+venv/
+*.env
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Model files (large, not needed on GitHub) ---
+/model/
+*.pt
+*.pth
+*.bin
+
+# --- OS and IDE files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+
+# --- Data (if large or sensitive) ---
+/dataset/
+*.csv
+*.tsv
+*.xlsx
+*.txt
+
+# --- Other ---
+*.zip
+*.tar
+*.gz
+
+# Model and checkpoints
+/model/
+/output/checkpoint*/
+*.bin
+*.safetensors
+*.json
